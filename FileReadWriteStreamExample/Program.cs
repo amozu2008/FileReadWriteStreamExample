@@ -28,9 +28,9 @@ namespace FileReadWriteStreamExample
 
                 Console.WriteLine("Finishing copying");
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(ex.Message);
             }
 
             Console.ReadKey();
